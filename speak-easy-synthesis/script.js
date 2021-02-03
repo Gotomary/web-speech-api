@@ -72,7 +72,6 @@ inputForm.onsubmit = function(event) {
   speak();
 
   inputTxt.blur();
-
 }
 
 pitch.onchange = function() {
@@ -86,4 +85,3 @@ rate.onchange = function() {
 voiceSelect.onchange = function(){
   speak();
 }
-
