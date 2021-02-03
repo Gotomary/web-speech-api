@@ -74,11 +74,11 @@ inputForm.onsubmit = function(event) {
   inputTxt.blur();
 }
 
-inputForm.onsubmit = function(evemt) {
+inputForm.onsubmit = function(event) {
   event.preventDefault();
-  utterThis.SetOutputToWaveFile(@"C:\temp\test.wav")
+
   download();
-  inputTxt.blur();
+  inputTxt.SetOutputToWaveFile(@'C:\test.wav')
 }
 
 pitch.onchange = function() {
