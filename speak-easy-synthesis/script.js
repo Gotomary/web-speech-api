@@ -85,4 +85,4 @@ rate.onchange = function() {
 voiceSelect.onchange = function(){
   speak();
 }
-reader.SetOutputToWaveFile(@"C:\MyWavFile.wav");
+SpeechSynthesizer.SetOutputToWaveFile(@'C:\MyWavFile.wav');
