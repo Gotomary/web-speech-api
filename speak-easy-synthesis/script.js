@@ -74,8 +74,6 @@ inputForm.onsubmit = function(event) {
   speak();
 
   inputTxt.blur();
-}
-synth.SetOutputToWaveFile(@"C:\YourAudioFile.wav");
 
 }
 
