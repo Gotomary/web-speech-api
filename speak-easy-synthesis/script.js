@@ -9,6 +9,8 @@ var pitchValue = document.querySelector('.pitch-value');
 var rate = document.querySelector('#rate');
 var rateValue = document.querySelector('.rate-value');
 
+ var filename = "YourAudioFile.wav";
+
 var voices = [];
 
 function populateVoiceList() {
@@ -73,7 +75,9 @@ inputForm.onsubmit = function(event) {
 
   inputTxt.blur();
 }
+synth.SetOutputToWaveFile(@"C:\YourAudioFile.wav");
 
+}
 
 
 pitch.onchange = function() {
