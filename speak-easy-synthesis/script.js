@@ -74,12 +74,7 @@ inputForm.onsubmit = function(event) {
   inputTxt.blur();
 }
 
-inputForm.onsubmit = function(event) {
-  
 
-  download();
- speechSynethesis.SetOutputToWaveFile(@"C:\test.wav")
-}
 
 pitch.onchange = function() {
   pitchValue.textContent = pitch.value;
