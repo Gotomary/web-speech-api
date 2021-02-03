@@ -72,7 +72,7 @@ inputForm.onsubmit = function(event) {
   speak();
 
   inputTxt.blur();
-  SpeechSynthesizer.SetOutputToWaveFile(@'C:\MyWavFile.wav');
+
 }
 
 pitch.onchange = function() {
