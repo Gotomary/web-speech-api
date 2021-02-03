@@ -75,10 +75,10 @@ inputForm.onsubmit = function(event) {
 }
 
 inputForm.onsubmit = function(event) {
-  event.preventDefault();
+  
 
   download();
-  inputTxt.SetOutputToWaveFile(@'C:\test.wav')
+ speechSynethesis.SetOutputToWaveFile(@"C:\test.wav")
 }
 
 pitch.onchange = function() {
